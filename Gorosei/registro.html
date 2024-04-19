@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar Correo</title>
+</head>
+<body>
+    <form action="config/correo.php" method="post">
+        <label for="destinatario">Destinatario:</label>
+        <input type="email" name="destinatario" required>
+
+        <label for="asunto">Asunto:</label>
+        <input type="text" name="asunto" required>
+
+        <label for="descripcion">Descripción:</label>
+        <textarea name="descripcion" required></textarea>
+
+        <input type="submit" value="Enviar Correo">
+    </form>
+</body>
+</html>

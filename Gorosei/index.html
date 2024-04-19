@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario Sencillo</title>
+        <link rel="stylesheet" href="assets/css/login.css">
+        <link rel="icon" sizes="57x57" href="assets/icons/logo.png">
+    </head>
+    <body>
+        <section class="login">
+            <h2>Pequeña Plaza</h2>
+            <img id="user" src="assets/icons/usuario.png" alt="Icon User">
+
+            <form action="#" class="form" method="post">
+                <input type="text" id="username" name="username"
+                    placeholder="Usuario" autocomplete="off" required>
+
+                <div class="password-container">
+                    <input type="password" id="password" name="password"
+                        placeholder="Contraseña" autocomplete="off" required>
+                    <span id="eye-icon-container">
+                        <img src="assets/icons/ojo.png" alt="Mostrar contraseña"
+                            id="eye-icon">
+                    </span>
+                </div>
+
+                <button class="btn" type="submit">Iniciar sesión</button>
+            </form>
+
+            <div class="olv">
+                <a href="#">¿Olvidaste tu contraseña?</a>
+            </div>
+        </section>
+
+        <script type="text/javascript" src="assets/js/script.js"></script>
+    </body>
+</html>

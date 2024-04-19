@@ -1,0 +1,68 @@
+body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    height: 100vh;
+    padding: 0 24px;
+    background-image: url("../img/tacosSingUp.jpg");
+    background-size: cover;
+    font-family: 'Kaushan Script', cursive;
+    animation: rotate 5s infinite alternate linear;
+}
+
+.singUp {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    max-width: 350px;
+    padding: 40px 60px 40px;
+    background: #ffffff;
+    text-align: center;
+}
+
+@media (width >=500px) {
+    .singUp {
+        width: 100%;
+    }
+}
+
+@media (width >=1000px) {
+    .singUp {
+        top: 0;
+        right: 0;
+        left: auto;
+        translate: 0 0;
+        height: 100%;
+        width: 70%;
+        border-radius: 0;
+        padding: 40px;
+        padding-top: 3%;
+    }
+
+}
+
+.singUp #user {
+    width: 200px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.singUp h2 {
+    color: #E4007D;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0 0 30px;
+}
+
+.form input,
+.form button {
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    border-radius: 30px;
+    font-family: inherit;
+}
